@@ -11,6 +11,9 @@ export class MyBook {
 
     @Prop()
     rate: number;
+
+    @Prop()
+    username: string;
 }
 
 export const MyBookSchema = SchemaFactory.createForClass(MyBook);
